@@ -5,19 +5,19 @@ static class Product{
         //create a method of following defination
         //public int product(int x, int y) {}
       public int product(int x,int y){
-          System.out.println(x+" "+y+" First");
+          System.out.println(x+" "+y);
        return 0;
       }
       //create a Overloaded method product of following defination
       //public int product(int x, int y, int z) {}
       public int product(int x,int y,int z){
-      System.out.println(x+" "+y+" "+z+" Second");
+      System.out.println(x+" "+y+" "+z);
       return 0;
       }
       //create a Overloaded method product of following defination
       //public double product(double x, double y) {}
       public double product(double x,double y){
-       System.out.println(x+" "+y+" Third");
+       System.out.println(x+" "+y);
        return 0.00;
       }
     }
