@@ -1,7 +1,7 @@
 package com.driver;
 
 public class Main {
- static class Product{
+public static class Product{
         //create a method of following defination
         //public int product(int x, int y) {}
        public int product(int x,int y)
