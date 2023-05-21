@@ -2,30 +2,36 @@ package com.driver;
 
 
 public class Main {
-
-    public static class Product {
-        public int product(int x,int y)
-        {
-            return x*y;
-        }
-        public int product(int x,int y,int z)
-        {
-            return x*y*z;
-        }
-        public double product(double x,double y)
-        {
-            return x*y;
-        }
+    //create a class Product inside Main class
+  public  static class Product{
+        //create a method of following defination
+        //public int product(int x, int y) {}
+      public int product(int x,int y){
+          System.out.println(x+" "+y);
+       return 0;
+      }
+      //create a Overloaded method product of following defination
+      //public int product(int x, int y, int z) {}
+      public int product(int x,int y,int z){
+      System.out.println(x+" "+y+" "+z);
+      return 0;
+      }
+      //create a Overloaded method product of following defination
+      //public double product(double x, double y) {}
+      public double product(double x,double y){
+       System.out.println(x+" "+y);
+       return 0.00;
+      }
     }
-
-    public static void main(String args[])
-    {
-        Product p = new Product();
-        System.out.println(p.product(2,5));
-        System.out.println(p.product(2,4,3));
-        System.out.println(p.product(1.00,3.00));
-
+    public static void main(String[] args) {
+        //create object of Product in Main function called p
+        Product p=new Product();
+        //call this method also from Main using Product class object p
+        p.product(5,6,7);
+        p.product(5.7,6.2);
+        p.product(10,20);
     }
-
-
 }
+
+
+
