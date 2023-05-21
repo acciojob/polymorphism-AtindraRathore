@@ -23,10 +23,10 @@ public class Main {
     }
     public static void main(String[] args) {
         //create object of Product in Main function called p
-        Product p=n7);
+       Product p=new Product();
+     //call this method also from Main using Product class object p
         p.product(5.7,6.2);
-        p.product(10,20);ew Product();
-        //call this method also from Main using Product class object p
-        p.product(5,6,
+        p.product(10,20);
+        p.product(5,6,7);
     }
 }
