@@ -21,8 +21,9 @@ public class Main {
         //create object of Product in Main function called p
        Product p=new Product();
      //call this method also from Main using Product class object p
-        p.product(5.7,6.2);
-        p.product(10,20);
-        p.product(5,6,7);
+
+        System.out.println(p.product(2,5));
+        System.out.println(p.product(2,4,3));
+        System.out.println(p.product(1.00,3.00));
     }
 }
