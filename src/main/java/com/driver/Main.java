@@ -4,22 +4,18 @@ public class Main {
  class Product{
         //create a method of following defination
         //public int product(int x, int y) {}
-      public void product(int x,int y){
-         System.out.println(x+" "+y);
-//        return 0;
-      }
-      //create a Overloaded method product of following defination
-      //public int product(int x, int y, int z) {}
-      public void product(int x,int y,int z){
-      System.out.println(x+" "+y+" "+z);
-//       return 0;
-      }
-      //create a Overloaded method product of following defination
-      //public double product(double x, double y) {}
-      public void product(double x,double y){
-       System.out.println(x+" "+y);
-//        return 0.00;
-      }
+       public int product(int x,int y)
+        {
+            return x*y;
+        }
+        public int product(int x,int y,int z)
+        {
+            return x*y*z;
+        }
+        public double product(double x,double y)
+        {
+            return x*y;
+        }
     }
     public static void main(String[] args) {
         //create object of Product in Main function called p
